@@ -1,0 +1,4 @@
+  //This JSON file is essential for configuring how your React-based web application behaves
+  //and appears when users interact with it, especially when added to the home screen
+  //of a mobile device or used as a standalone app. It ensures consistency in appearance 
+  //and behavior across different devices and platforms.

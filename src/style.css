@@ -1,0 +1,153 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bungee+Spice&family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bungee Spice", sans-serif; /* Apply Lobster font to all elements */
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.time, .day {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.day {
+    color: #f7941d;
+}
+
+.time {
+    color: #555;
+}
+
+.greeting {
+    font-size: 3rem;
+    color: #555;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.name {
+    color: #f7941d;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.text_input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    background: #fff;
+    width: 300px;
+}
+
+.task_input {
+    flex: 1;
+    border: none;
+    padding: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.fa-plus {
+    margin-left: 10px;
+    font-size: 1.5rem;
+    color: #555;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.fa-plus:hover {
+    color: #f7941d;
+}
+
+.eachElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.element {
+    background: #5128D6;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.element:hover {
+    background: #6a3cb0;
+}
+
+.fa-edit, .fa-trash-alt {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.fa-edit:hover {
+    color: #4CAF50;
+}
+
+.fa-trash-alt:hover {
+    color: #E74C3C;
+}
+
+.nameinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 50px;
+}
+
+.nametext {
+    
+    border: none;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 8px;
+    outline: none;
+}
+
+.namebtn {
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f7941d;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.namebtn:hover {
+    background-color: #ffae42;
+}
+
+.nameoutput {
+    font-size: 3rem;
+    color: #555;
+    text-align: center;
+    margin: 50px 0;
+}
